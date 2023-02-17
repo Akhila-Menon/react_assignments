@@ -1,0 +1,13 @@
+.buttonColor {
+  background-color: rgb(3, 3, 3);
+  color: rgb(245, 246, 243);
+  font-size: medium;
+  margin-left: 50px;
+}
+
+.onClick {
+  background-color: rgb(241, 49, 49);
+  color: white;
+  font-size: medium;
+  margin-left: 50px;
+}
