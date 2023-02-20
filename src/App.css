@@ -1,13 +1,52 @@
-.buttonColor {
-  background-color: rgb(3, 3, 3);
-  color: rgb(245, 246, 243);
-  font-size: medium;
-  margin-left: 50px;
+.App {
+text-align: center;
+background-color:rgb(148, 206, 244);
+display: flex;
+justify-content: center ;
 }
 
-.onClick {
-  background-color: rgb(241, 49, 49);
-  color: white;
-  font-size: medium;
-  margin-left: 50px;
+.label{
+display: block;
+font-size: medium;
+color: white;
+padding: 5px;
+}
+
+.input{
+font-size: larger;
+padding: 5px;
+margin: 2px;
+
+}
+.btn{
+color: white;
+background-color: rgb(15, 15, 15);
+border-radius: 5px;
+font-size: larger;
+display: block;
+padding: 5px;
+margin: 10px auto;
+}
+
+.messages{
+display: flex;
+justify-content: center;
+}
+
+.error{
+display: block;
+background-color: red;
+color: white;
+width: fit-content;
+height: 50px;
+padding: 5px;
+}
+
+.success{
+display: block;
+background-color: lightblue;
+color: black;
+width: fit-content;
+height: 50px;
+padding: 5px;
 }

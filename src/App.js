@@ -1,14 +1,13 @@
 import './App.css';
-import FuntionalComponent from './components/FunctionalComponent';
-import ClassComponent from './components/ClassComponent';
+import Form from "./Form"
 
 function App() {
-  return (
-    <div className="App">
-      <ClassComponent /><hr/>
-      <FuntionalComponent firstName="Anjana" lastName="Rajan"/>
-    </div>
-  );
+return (
+	<div className="App">
+	<Form />
+	</div>
+	
+);
 }
 
 export default App;
